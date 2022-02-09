@@ -15,10 +15,13 @@ export default function Covid() {
 
   return (
     <div className="container-center">
+      <div className="h3">
+        <h2>Casos de COVID no mundo</h2>
+      </div>
        {dados.map(item => (
       <div className="container">
         <div className="card">
-        <h3>Casos de COVID</h3>
+        <h3>Detalhes</h3>
         <p className="card-text-left">Pais: {item.country}</p>
         <p className="card-text-left">Total de casos: {item.cases}</p>
         </div>
